@@ -47,58 +47,67 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Name"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="normal|bold" />
 
             <EditText
                 android:id="@+id/etName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="text"
+                android:textStyle="normal|bold" />
 
             <TextView
                 android:id="@+id/MobilePhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Phone"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="normal|bold" />
 
             <EditText
                 android:id="@+id/etPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="phone" />
+                android:inputType="phone"
+                android:textStyle="normal|bold" />
 
             <TextView
                 android:id="@+id/GroupSize"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/Group"
-                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="normal|bold" />
 
             <EditText
                 android:id="@+id/etSize"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number" />
+                android:inputType="number"
+                android:textStyle="normal|bold" />
 
             <TimePicker
                 android:id="@+id/timePicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:timePickerMode="spinner" />
+                android:timePickerMode="spinner"
+                android:textStyle="normal|bold" />
 
             <DatePicker
                 android:id="@+id/datePicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:calendarViewShown="false"
-                android:datePickerMode="spinner" />
+                android:datePickerMode="spinner"
+                android:textStyle="normal|bold" />
 
             <TextView
                 android:id="@+id/tableChoiceText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/TC" />
+                android:text="@string/TC"
+                android:textStyle="normal|bold" />
 
             <RadioGroup
                 android:id="@+id/TableChoice"
@@ -115,14 +124,16 @@
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/S" />
+                        android:text="@string/S"
+                        android:textStyle="normal|bold" />
 
                     <RadioButton
                         android:id="@+id/NonSmoking"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:text="@string/NS" />
+                        android:text="@string/NS"
+                        android:textStyle="normal|bold" />
                 </LinearLayout>
 
             </RadioGroup>
@@ -131,7 +142,8 @@
                 android:id="@+id/textViewDisplay"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="TextView"
+                android:textStyle="normal|bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
