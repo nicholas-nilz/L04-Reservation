@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">L04-Reservation</string>
+    <string name="Store">Furry Paw Cafe</string>
+    <string name="Location">1201 Eighth Avenue S231201</string>
+    <string name="Contact">+65 87234756</string>
+    <string name="Name">Name:</string>
+    <string name="Phone">Phone No.:</string>
+    <string name="Group">Group Size:</string>
+    <string name="S">Smoking</string>
+    <string name="NS">Non-Smoking</string>
+    <string name="TC">Table Choice:</string>
+    <string name="Confirm">Confirm</string>
+    <string name="Reset">Reset</string>
+
+</resources>
