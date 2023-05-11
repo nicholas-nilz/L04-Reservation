@@ -92,7 +92,7 @@ TextView tvDisplay;
 
             tvDisplay.setText(reservationInfo);
 
-            Toast.makeText(MainActivity.this, reservationInfo, Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, reservationInfo, Toast.LENGTH_LONG).show();
         }
 
     });
